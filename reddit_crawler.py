@@ -12,9 +12,9 @@ client = pymongo.MongoClient(MONGO_HOST)
 db = client.redditDB
 redditDatabase = db.reddit_search
 
-reddit = praw.Reddit(client_id='bGjd-GkJD7pESg',
-                     client_secret='-LSki7j7xzEwlzgmwg1vBqxatuc',
-                     user_agent='Reddit Crawler')
+reddit = praw.Reddit(client_id='***********',
+                     client_secret='*************',
+                     user_agent='*******************')
 
 # Getting top trends list
 TrendsList = []
